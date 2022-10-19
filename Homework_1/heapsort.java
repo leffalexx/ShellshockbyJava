@@ -7,7 +7,7 @@ public class heapsort {
           int rightnum = i * 2 + 1;
           int maxx = i;
           
-          if(leftnum < size && array[leftnum] > array[maxx])
+          if(leftnum < size && array[leftnum] > array[i])
             maxx = leftnum;
           if(rightnum < size && array[rightnum] > array[maxx])
             maxx = rightnum;
